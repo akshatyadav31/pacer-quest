@@ -1,65 +1,116 @@
-<p align="center">
- <a href="https://web3templates.com/?ref=nextly_github_logo">
- <img src="https://user-images.githubusercontent.com/1884712/132941531-0fdd7acf-47ca-424e-b77f-1fab2e372a37.png" alt="W3T" width="100" height="41"/>
- </a> 
- <br>
- <br>
-</p>
+# PACER Quest
 
-# Nextly - Landing Page Template with Next.js & Tailwind CSS
+PACER Quest is an AI-powered interactive learning game that converts text into gamified flashcards using the **PACER (Procedural, Analogous, Conceptual, Evidence, Reference) enrichment** method. It enhances retention and understanding by structuring learning content into engaging flashcards and quizzes.
 
-Nextly is a free landing page & marketing website template for  startups and indie projects. Its built with Next.js & TailwindCSS.
-And its completely open-source.
- 
-![image](https://user-images.githubusercontent.com/1884712/121497169-03228680-c990-11eb-975a-e77fddc43de0.png)
+## 🚀 Features
 
-## How to use
+### 🏗 Core Features
+- **AI-Powered Text Processing:** Converts input text into PACER-enriched flashcards.
+- **Flashcard Generation:** Creates interactive flashcards based on AI responses.
+- **Flip Animation & Tab Switching:** 3D card flips and tab-based navigation for P/A/C/E/R content.
+- **User Interaction:** Swipe gestures for rating difficulty and unlocking the next card.
+- **Progress Tracking:** A progress bar updates as users interact with flashcards.
+- **Adaptive Quizzes:** AI-generated MCQs/Sentence Scramblers based on weak areas.
+- **Retention-Boosting Games:** Interactive quizzes and memory card games for better learning.
 
-Click on the [Use Template](https://github.com/surjithctly/nextly-template/generate) button on this page to clone this respository to your github account. Or you can also clone this respository using terminal or bash. 
+### 🌍 Website Sections
+- **Home Page:** Introduction to PACER Quest.
+- **Features Page:** Detailed explanation of the functionalities.
+- **Blog Section:** Educational articles related to learning and memory techniques.
+- **About Section:** Information about the project and its creators.
 
-### 1\. Clone this Repository
+## 🛠 Tech Stack
 
-```bash
-git clone https://github.com/surjithctly/nextly-template.git
+- **Frontend:** React (Vite) + TypeScript + Tailwind CSS
+- **Backend:** Not implemented yet (can be integrated with Firebase or NextAuth.js for authentication)
+- **Database:** MongoDB (Compass for local testing)
+- **AI Processing:** Hugging Face (for text chunking, summarization, and quiz generation)
+- **Authentication:** Firebase (for social logins) & NextAuth.js (for email-based logins)
+- **Deployment:** To be decided (Vercel or Firebase Hosting suggested)
+
+## 📂 Folder Structure
+```
+PACER-Quest/
+│── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Flashcard.jsx
+│   │   ├── Quiz.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── BlogPage.jsx
+│   │   ├── FlashcardPage.jsx
+│   │   ├── QuizPage.jsx
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Header.css
+│   │   ├── Footer.css
+│   │   ├── FlashcardPage.css
+│   ├── services/
+│   │   ├── aiService.js
+│   │   ├── quizService.js
+│   ├── App.jsx
+│   ├── main.jsx
+│── public/
+│── README.md
+│── package.json
+│── .gitignore
 ```
 
-### 2\. Navigate to the directory
+## 🛠 Setup & Installation
 
-```
-cd nextly-template
-```
+### Prerequisites
+- Node.js (v16 or higher)
+- npm or yarn
+- MongoDB Compass (if using MongoDB locally)
 
-### 3\. Install dependencies
+### 🔧 Installation Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/PACER-Quest.git
+   cd PACER-Quest
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+4. **Open in browser:**
+   ```
+http://localhost:5173
+   ```
 
-```
-yarn install
-# or
-npm install
-```
+## 🔥 Roadmap
 
-### 5\. Run Dev Server
+### ✅ Phase 1: Core Development
+- [x] Build PACER-based flashcard system
+- [x] Implement AI-powered text chunking
+- [x] Add flipping animations & progress tracking
 
-```
-yarn dev
-# or
-npm run dev
-```
+### 🚀 Phase 2: Enhancements
+- [ ] User authentication (Firebase + NextAuth.js)
+- [ ] Cloud storage for user data (MongoDB or Firebase Firestore)
+- [ ] Mobile-friendly UI improvements
 
-## Deploy with Vercel
+### 🌟 Phase 3: Advanced Features
+- [ ] AI-based adaptive learning engine
+- [ ] Leaderboards & gamification
+- [ ] Multi-language support
 
-Deploy this template using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## 🤝 Contributing
+1. Fork the repo and create a new branch.
+2. Make your changes and commit with a descriptive message.
+3. Push to your fork and submit a pull request.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/surjithctly/nextly-template&project-name=nextly-template&repository-name=nextly-template)
+## 📜 License
+MIT License. See `LICENSE` for more details.
 
-
-## Author
-
-Surjith S M ( [@surjithctly](https://surjithctly.in/) )
-
----
-
-[![image](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=web3templates&utm_campaign=oss)
-
-
-
+## 📬 Contact
+For any issues, reach out to [your email or GitHub profile link].
 
