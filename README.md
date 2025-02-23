@@ -8,15 +8,13 @@ PACER Quest is an AI-powered interactive learning game that converts text into g
 - **AI-Powered Text Processing:** Converts input text into PACER-enriched flashcards.
 - **Flashcard Generation:** Creates interactive flashcards based on AI responses.
 - **Flip Animation & Tab Switching:** 3D card flips and tab-based navigation for P/A/C/E/R content.
-- **User Interaction:** Swipe gestures for rating difficulty and unlocking the next card.
-- **Progress Tracking:** A progress bar updates as users interact with flashcards.
-- **Adaptive Quizzes:** AI-generated MCQs/Sentence Scramblers based on weak areas.
+- **Adaptive Quizzes:** AI-generated MCQs.
 - **Retention-Boosting Games:** Interactive quizzes and memory card games for better learning.
 
 ### 🌍 Website Sections
 - **Home Page:** Introduction to PACER Quest.
 - **Features Page:** Detailed explanation of the functionalities.
-- **Blog Section:** Educational articles related to learning and memory techniques.
+- **Newsletter Section:** Educational articles related to learning and memory techniques.
 - **About Section:** Information about the project and its creators.
 
 ## 🛠 Tech Stack
